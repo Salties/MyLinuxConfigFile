@@ -81,3 +81,6 @@ set clipboard=unnamedplus
 
 " Set folding method for python files.
 au filetype python setlocal foldmethod=indent
+
+" Disable bell.
+set visualbell
