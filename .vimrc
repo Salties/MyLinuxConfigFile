@@ -83,4 +83,5 @@ set clipboard=unnamedplus
 au filetype python setlocal foldmethod=indent
 
 " Disable bell.
-set visualbell
+set noerrorbells
+set novisualbell
