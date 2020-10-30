@@ -55,6 +55,7 @@ set incsearch		" Incremental search
 set autowrite		" Automatically save before commands like :next and :make
 set hidden		" Hide buffers when they are abandoned
 set mouse=a		" Enable mouse usage (all modes)
+set wildmenu    " Enable suggestions with tabnew.
 
 " Explicitly set the tab style.
 set tabstop=4
@@ -76,8 +77,8 @@ set autoread
 " Enable spellcheck for text files.
 autocmd BufRead,BufNewFile *.txt,*.tex setlocal spell
 
-"colorscheme peachpuff
-colorscheme desert
+colorscheme peachpuff
+"colorscheme desert
 set clipboard=unnamedplus
 
 " Set folding method for python files.
