@@ -1,5 +1,5 @@
--kr
+-linux
 -bl
--bli0
+-bli4
 -nce
 -i4
