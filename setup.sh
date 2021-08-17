@@ -1,3 +1,4 @@
 #!/bin/bash
 
-cp .vimrc .gvimrc .indent.profile ${HOME}
+cp .vimrc .gvimrc ${HOME}
+cp .indent.profile .indent.pro ${HOME}
