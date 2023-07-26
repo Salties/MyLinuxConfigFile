@@ -85,8 +85,7 @@ set clipboard=unnamedplus
 au filetype python setlocal foldmethod=indent
 
 " Disable bell.
-set noerrorbells
-set novisualbell
+set noerrorbells visualbell t_vb=
 
 " Script to auto update tag files for C and C++.
 function! DelTagOfFile(file)
