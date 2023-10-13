@@ -107,3 +107,4 @@ function! UpdateTags()
   let resp = system(cmd)
 endfunction
 autocmd BufWritePost *.cpp,*.h,*.c call UpdateTags()
+au BufNewFile,BufRead *.v set filetype=verilog
