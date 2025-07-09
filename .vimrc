@@ -98,6 +98,14 @@ function! DelTagOfFile(file)
   let resp = system(cmd)
 endfunction
 
+" Vim plugin manger
+call plug#begin()
+
+" List your plugins here
+Plug 'tpope/vim-sensible'
+
+call plug#end()
+
 function! UpdateTags()
   let f = expand("%:p")
   let cwd = getcwd()
