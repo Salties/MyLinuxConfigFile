@@ -21,10 +21,10 @@ if has("syntax")
 endif
 
 " Open multiple files with -p by default.
-augroup ptabopen
-  autocmd!
-  autocmd VimEnter * if argc() > 1 | tab ball | endif
-augroup END
+"augroup ptabopen
+"  autocmd!
+"  autocmd VimEnter * if argc() > 1 | tab ball | endif"
+"augroup END
 
 " If using a dark background within the editing area and syntax highlighting
 " turn on this option as well
