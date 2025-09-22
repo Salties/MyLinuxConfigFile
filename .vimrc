@@ -20,12 +20,6 @@ if has("syntax")
   syntax on
 endif
 
-" Open multiple files with -p by default.
-"augroup ptabopen
-"  autocmd!
-"  autocmd VimEnter * if argc() > 1 | tab ball | endif"
-"augroup END
-
 " If using a dark background within the editing area and syntax highlighting
 " turn on this option as well
 if has("gui_running")
@@ -109,8 +103,15 @@ call plug#begin()
 
 " List your plugins here
 Plug 'tpope/vim-sensible'
+Plug 'https://github.com/laurelmay/riscv.vim'
+Plug 'Yggdroot/indentLine'
 
 call plug#end()
+
+"IndentLine config
+let g:indentLine_char = '|'
+let g:indentLine_enabled = 1
+let g:indentLine_leadingSpace = 1
 
 function! UpdateTags()
   let f = expand("%:p")
